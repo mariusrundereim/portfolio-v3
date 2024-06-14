@@ -1,0 +1,251 @@
+[
+  {
+    "id": 1,
+    "slug": "holidaze",
+    "title": "Holidaze",
+    "year": 2024,
+    "assignment": "2.årets eksamen",
+    "duration": 7,
+    "stack": ["React", "Redux", "Mantine"],
+    "cover": "/portfolio/holidaze_cover.png",
+    "media": [
+      {
+        "url": "/portfolio/holidaze_casestudy_0.png",
+        "alt": ""
+      },
+      {
+        "url": "/portfolio/holidaze_casestudy_1.png",
+        "alt": ""
+      },
+      {
+        "url": "/portfolio/holidaze_casestudy_2.png",
+        "alt": ""
+      },
+      {
+        "url": "/portfolio/holidaze_casestudy_3.png",
+        "alt": ""
+      }
+    ],
+    "brief": [
+      "En nylansert bookingside for overnattingssteder kalt Holidaze har kontaktet deg for å utvikle et helt nytt frontend for deres applikasjon. Selv om de har en liste over nødvendige funksjoner, er ikke design og brukeropplevelse spesifisert. Ved å jobbe med den offisielle API-dokumentasjonen, skal du planlegge, designe og bygge en moderne frontend-applikasjon for booking av overnatting.",
+      "Det er to aspekter ved denne oppgaven: kundesiden av nettstedet der brukere kan bestille ferier på et overnattingssted, og en administrasjonside av nettstedet der brukere kan registrere og administrere overnattingssteder og bestillinger på disse stedene."
+    ],
+    "stories": [
+      "En bruker kan se en liste over lokaler og søke etter et bestemt lokale",
+      "En bruker kan se en spesifik side med ID",
+      "En bruker kan se en kalender med tilgjengelige datoer for et lokale",
+      "En bruker med en stud.noroff.no e-post kan registrere seg som en kunde",
+      "En registrert kunde kan opprette en bestilling ved et lokale og se sine kommende bestilling",
+      "En bruker med en stud.noroff.no e-postadresse kan registrere seg som lokaleansvarlig.",
+      "En registrert lokaleansvarlig kan opprette, oppdatere og slette et lokale de administrerer.",
+      "En registrert lokaleansvarlig kan se bestillinger for et lokale de administrerer.",
+      "En registrert bruker kan logge inn og logge ut.",
+      "En registrert bruker kan oppdatere sin avatar."
+    ],
+    "tags": ["utleie", "bruker", "react-router-dom", "redux"],
+    "challenges": [
+      "API håndtering i Redux",
+      "Håndtere hva du får fra API'et med Query parameter"
+    ],
+    "learnings": [
+      "Forbedret forståelse av Reacts livssyklus",
+      "Grunleggende med Redux"
+    ],
+    "links": {
+      "github": "https://github.com/mariusrundereim/exam2-holidaze",
+      "netlify": "https://holidaze-exam2.netlify.app/",
+      "figma": "https://www.figma.com/design/0767b34ttNQBcZs8xm7IPl/Exam-2---Holidaze?node-id=0-1&t=Q6rjxMG8YNSR4JSJ-1"
+    },
+    "theme": { "primaryColor": "#7B2EDA" }
+  },
+  {
+    "id": 2,
+    "slug": "bidify",
+    "title": "Bidify",
+    "year": 2023,
+    "assignment": "Semester prosjekt",
+    "duration": 4,
+    "stack": ["HTML & CSS", "JavaScript", "TailwindCss"],
+    "cover": "/portfolio/bidify_cover.png",
+    "media": [
+      {
+        "url": "/portfolio/bidify_casestudy_0.png",
+        "alt": ""
+      },
+      {
+        "url": "/portfolio/bidify_casestudy_1.png",
+        "alt": ""
+      },
+      {
+        "url": "/portfolio/bidify_casestudy_2.png",
+        "alt": ""
+      }
+    ],
+    "brief": [
+      "En auksjonsside ønsker å lansere en nettside der brukere kan legge ut gjenstander for budgivning og by på gjenstander som andre brukere har lagt ut.",
+      "Når en ny bruker registrerer seg på nettsiden, får de 1000 kreditter å bruke på siden. De kan få kreditter ved å selge gjenstander og bruke kreditter ved å kjøpe gjenstander. Ikke-registrerte brukere kan søke gjennom oppføringene, men kun registrerte brukere kan legge inn bud på oppføringene."
+    ],
+    "stories": [
+      "En registrert bruker kan logge inn og logge ut",
+      "En registrert bruker kan oppdatere sin avatar",
+      "En registrert bruker kan se sin totale kreditt",
+      "En registrert bruker kan opprette en annonse med tittel, sluttdato, mediagalleri og beskrivelse",
+      "En registrert bruker kan legge inn et bud på en annen brukers annonse",
+      "En registrert bruker kan se bud lagt inn på en annonse",
+      "En uregistrert bruker kan søke gjennom annonser"
+    ],
+    "tags": ["auksjon", "tailwindcss", "budkrig", "annonse"],
+    "challenges": [
+      "Datoer var en utfordring med å skape en logikk for når en annonse ble lagt ut for salg og når den utløper.",
+      "Oppsett av filstruktur for at den skal være oversiktlig for andre utviklere og meg selv"
+    ],
+    "learnings": [
+      "Forstått hvordan JavaScript henger sammen og bruke de ulike syntax'ene på en fornuftig og riktig måte",
+      "Code-splitting er noe av det jeg lærte aller mest fra dette prosjektet."
+    ],
+    "links": {
+      "github": "https://github.com/mariusrundereim/marius-semester-project-2",
+      "netlify": "https://mariusrundereim.github.io/marius-semester-project-2/",
+      "figma": "https://www.figma.com/design/dEgjmFhLUNuSN6cThNGROD/Semester-Project-2---Auction?node-id=125-462&t=ahyLQ0RSJz20X35P-1"
+    },
+    "theme": { "primaryColor": "#1EBFBF" }
+  },
+  {
+    "id": 3,
+    "slug": "kaupa",
+    "title": "Kaupa",
+    "year": 2024,
+    "assignment": "React prosjekt",
+    "duration": 2,
+    "stack": ["React", "TypeScript", "Zustand", "MUI"],
+    "cover": "/portfolio/kaupa_cover.png",
+    "media": [
+      {
+        "url": "/portfolio/kaupa_casestudy_0.png",
+        "alt": ""
+      },
+      {
+        "url": "/portfolio/kaupa_casestudy_1.png",
+        "alt": ""
+      },
+      {
+        "url": "/portfolio/kaupa_casestudy_2.png",
+        "alt": ""
+      }
+    ],
+    "brief": [
+      "Utvikling av en online e-handelsbutikk ved bruk av React og Zustand for state management. Hovedfokus var å demonstrere ferdigheter i React ved å implementere en handlekurvfunksjonalitet, til tross for begrensningen med kun en GET-metode fra API'et."
+    ],
+    "stories": [
+      "En bruker kan se en liste over alle produkter",
+      "En bruker kan se en spesifik side med ID"
+    ],
+    "tags": ["e-commerce", "cart", "react", "zustand"],
+    "challenges": [
+      "Handlekurven automatisk oppdatert når en legger til flere produkt",
+      "Forsåelse av hvordan TypeScript fungerer"
+    ],
+    "learnings": [
+      "Forbedret forståelse av Reacts livssyklus",
+      "Grunleggende forståelse av Zustand og TypeScript"
+    ],
+    "links": {
+      "github": "https://github.com/mariusrundereim/fed-frameworks-ca-marius",
+      "netlify": "https://brilliant-madeleine-06f016.netlify.app/",
+      "figma": ""
+    },
+    "theme": { "primaryColor": "#7B2EDA" }
+  },
+  {
+    "id": 4,
+    "slug": "stylevault",
+    "title": "Style Vault",
+    "year": 2023,
+    "assignment": "1.årets eksamen",
+    "duration": 4,
+    "stack": ["HTML", "CSS", "JavaScript", "Wordpress"],
+    "cover": "/portfolio/stylevault_cover.png",
+    "media": [
+      {
+        "url": "/portfolio/stylevault_casestudy_0.png",
+        "alt": ""
+      },
+      {
+        "url": "/portfolio/stylevault_casestudy_1.png",
+        "alt": ""
+      },
+      {
+        "url": "/portfolio/stylevault_casestudy_2.png",
+        "alt": ""
+      }
+    ],
+    "brief": [
+      "Mål for oppgaven var å bruke kunnskapen jeg har lært i løpet av mitt første studieår på et praktisk prosjekt. Få erfaring med headless-CMS og API-er.",
+      "Oppgaven gikk ut på å lage en moderne, responsiv bloggside som henter innhold fra Wordpress som fungerer som headless CMS."
+    ],
+    "stories": [
+      "Enkelt navigere på en visuelt tiltalende hjemmeside med utvalgte blogginnlegg.",
+      "Se de nyeste blogginnleggene og bla gjennom ved hjelp av en karuell.",
+      "Lese individuelle blogginnlegg med tydlige titler og muligheten til å se større bilder når en bruker klikker på dem.",
+      "Kontakte bloggeieren gjennom et brukervennlig skjema.",
+      "Administrere blogginnhold enkelt ved hjelp av Wordpress.",
+      "Ha en nettside som gjenspeiler mitt valgte tema og stil."
+    ],
+    "tags": ["blogg", "javascript", "wordpress", "light-dark mode"],
+    "challenges": [
+      "Responsiv karusell med litt matematikk utfordringer.",
+      "Hente ut data fra Wordpress-grensesnittet til min applikasjon krevde mye hodebry for å få det til å fungere optimalt.",
+      "Overholde WCAG-standard for oppsett av light-dark mode var en challenge. "
+    ],
+    "learnings": [
+      "Startskuddet for DOM-manipulering og kode i Javascript startet i dette prosjektet, dette lærte jeg mye av."
+    ],
+    "links": {
+      "github": "https://github.com/mariusrundereim/rundereim_marius_exam1",
+      "netlify": "https://earnest-lamington-1404cb.netlify.app/",
+      "figma": "https://www.figma.com/design/9CAyh87xkDMiNvGKexXJjH/StyleVault---Semester-Project-1?node-id=301-2&t=xkGPpaFncEZUHrqV-1"
+    },
+    "theme": { "primaryColor": "#56B6C2" }
+  },
+  {
+    "id": 5,
+    "slug": "event",
+    "title": "Event Management",
+    "year": 2024,
+    "assignment": "Development Platforms",
+    "duration": 2,
+    "stack": ["Express", "AWS EC2", "Mongo DB", "Postman"],
+    "cover": "/portfolio/event_cover.png",
+    "media": [],
+    "brief": [
+      "Målet med denne oppgaven er muligheten til å lage og være vert for et funksjonelt RESTful API. Fokuset vil være på å forstå datalagre og backend-løsninger som ofte brukes i fullstack web-utvikling. Dere vil demonstrere evnen til å implementere CRUD (opprette, lese, oppdatere, slette) REST-endepunkter, noe som gir verdifull praktisk erfaring."
+    ],
+    "stories": [
+      "Som en bruker vil jeg kunne hente alle deltakere slik at jeg kan se en liste over alle som deltar på arrangementene.",
+      "Som en administrator vil jeg kunne opprette en ny deltaker slik at nye deltakere kan registreres i systemet.",
+      "Som en bruker vil jeg kunne hente informasjon om en spesifikk deltaker ved hjelp av deres ID slik at jeg kan se detaljer om denne deltakeren.",
+      "Som en administrator vil jeg kunne slette en deltaker ved hjelp av deres ID slik at jeg kan fjerne deltakere som ikke lenger skal være i systemet.",
+      "Som en administrator vil jeg kunne oppdatere informasjonen til en deltaker slik at jeg kan sørge for at deltakeropplysningene er oppdaterte.",
+      "Som en bruker vil jeg kunne hente en liste over alle selskaper slik at jeg kan se en oversikt over alle selskaper i systemet.",
+      "Som en bruker vil jeg kunne hente detaljer om et spesifikt selskap ved hjelp av selskapets ID slik at jeg kan se informasjon om dette selskapet.",
+      "Som en administrator vil jeg kunne opprette et nytt selskap slik at nye selskaper kan legges til i systemet.",
+      "Som en bruker vil jeg kunne hente alle arrangementer slik at jeg kan se en liste over alle planlagte arrangementer.",
+      "Som en administrator vil jeg kunne opprette et nytt arrangement slik at nye arrangementer kan legges til i systemet."
+    ],
+    "tags": ["backend", "RESTful API", "hosting", "AWS EC2", "cloud"],
+    "challenges": [
+      "Krevende var å visualisere og feilsøke backend-logikken uten frontend-integrasjon.",
+      "Forsåelse av hvordan TypeScript fungerer"
+    ],
+    "learnings": [
+      "Hyppig bruk av Postman for å sjekke status kodene fra API'et til en hver tid ga meg mye læring.",
+      "Abstrahert koden på en god måte, slik at den er lettleselig for andre erfarne backend-utviklere."
+    ],
+    "links": {
+      "github": "https://github.com/mariusrundereim/marius_dev_platforms_ca",
+      "netlify": "http://ec2-13-60-20-158.eu-north-1.compute.amazonaws.com/",
+      "figma": ""
+    },
+    "theme": { "primaryColor": "#0000ff" }
+  }
+]

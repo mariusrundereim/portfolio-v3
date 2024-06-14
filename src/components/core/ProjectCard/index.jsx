@@ -15,7 +15,7 @@ function ProjectCard({ image, title, assignment, date }) {
   }, []);
 
   return (
-    <section className="relative w-full  overflow-hidden group aspect-video ">
+    <section className="relative w-full  overflow-hidden group aspect-video drop-shadow-xl">
       <img
         src={image}
         alt={title}
@@ -23,7 +23,7 @@ function ProjectCard({ image, title, assignment, date }) {
       />
       <div
         className={classNames(
-          "absolute top-0 right-0 w-full h-full p-8 bg-white transform transition-transform duration-300",
+          "absolute top-0 drop-shadow-[0_0px_5px_rgba(0,0,0,0.15)] right-0 w-full h-full p-8 bg-white rounded-lg  transform transition-transform duration-300",
           onDesktop
             ? "group-hover:translate-x-0 translate-x-full w-2/5"
             : isOpen
@@ -31,8 +31,8 @@ function ProjectCard({ image, title, assignment, date }) {
             : "translate-y-full"
         )}
       >
-        <div className="p-4">
-          <h3 className="text-xl font-bold">{title}</h3>
+        <div>
+          <h3 className="text-3xl font-bold">{title}</h3>
           <p>{assignment}</p>
           <p>{date}</p>
           <button className="mt-4 px-4 py-2 bg-black text-white rounded">
