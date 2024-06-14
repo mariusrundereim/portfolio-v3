@@ -32,9 +32,9 @@ function ProjectList() {
   }
   return (
     <>
-      <div className="p-8">
+      <div>
         <div className="flex justify-between items-center mb-4">
-          <h1 className="text-2xl font-bold">Case studies</h1>
+          <h1 className="text-4xl font-bold">Case studies</h1>
           <div className="space-x-2">
             <button
               className={`px-4 py-2 rounded ${
