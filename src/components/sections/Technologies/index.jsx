@@ -3,8 +3,8 @@ import ListTags from "./listTags";
 function Technologies() {
   return (
     <>
-      <h2 className="text-3xl mb-6">Teknologier</h2>
-      <div className="border-2 border-gray-200 p-2">
+      <div>
+        <h1 className="text-4xl mb-6">Teknologier</h1>
         <ListTags />
       </div>
     </>

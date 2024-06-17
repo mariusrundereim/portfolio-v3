@@ -17,7 +17,14 @@ const StyledTag = styled.button.attrs(({ $size, $state }) => ({
   className: classNames(sizes[$size], stateStyles[$state], baseStyles),
 }))``;
 
-function Tag({ size, state, icon: Icon, iconSize, children }) {
+function Tag({
+  size,
+  state,
+  iconLeft: IconLeft,
+  iconRight: IconRight,
+  iconSize,
+  children,
+}) {
   return (
     <>
       <StyledTag
@@ -25,8 +32,9 @@ function Tag({ size, state, icon: Icon, iconSize, children }) {
         $state={state}
         className="flex gap-2 items-center"
       >
-        <Icon size={iconSize} />
+        {IconLeft && <IconLeft size={iconSize} />}
         {children}
+        {IconRight && <IconRight size={iconSize} />}
       </StyledTag>
     </>
   );
