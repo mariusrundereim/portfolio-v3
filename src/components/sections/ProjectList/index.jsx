@@ -62,6 +62,7 @@ function ProjectList() {
           {filteredProjects.map((project) => (
             <ProjectCard
               key={project.id}
+              slug={project.slug}
               image={project.cover}
               title={project.title}
               assignment={project.assignment}

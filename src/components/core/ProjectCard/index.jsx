@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import classNames from "classnames";
-
-function ProjectCard({ image, title, assignment, date }) {
+import { Link } from "react-router-dom";
+function ProjectCard({ image, title, assignment, date, slug }) {
   const [isOpen, setIsOpen] = useState(false);
   const [onDesktop, setOnDesktop] = useState(window.innerWidth >= 768);
 
@@ -35,9 +35,11 @@ function ProjectCard({ image, title, assignment, date }) {
           <h3 className="text-3xl font-bold">{title}</h3>
           <p>{assignment}</p>
           <p>{date}</p>
-          <button className="mt-4 px-4 py-2 bg-black text-white rounded">
-            Se prosjekt
-          </button>
+          <Link to={`/project/${slug}`}>
+            <button className="mt-4 px-4 py-2 bg-black text-white rounded">
+              Se prosjekt
+            </button>
+          </Link>
         </div>
       </div>
       {!onDesktop && (
