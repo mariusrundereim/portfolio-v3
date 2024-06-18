@@ -1,5 +1,6 @@
 import Tag from "../../components/core/Tag/SimpleTag";
 import { DiHtml5, DiCss3, DiReact } from "react-icons/di";
+import { FaAws } from "react-icons/fa";
 import {
   SiTypescript,
   SiMui,
@@ -8,6 +9,9 @@ import {
   SiJavascript,
   SiWordpress,
   SiTailwindcss,
+  SiExpress,
+  SiMongodb,
+  SiPostman,
 } from "react-icons/si";
 const iconMap = {
   HTML: DiHtml5,
@@ -20,6 +24,10 @@ const iconMap = {
   Mantine: SiMantine,
   Wordpress: SiWordpress,
   TailwindCss: SiTailwindcss,
+  Express: SiExpress,
+  "AWS EC2": FaAws,
+  "Mongo DB": SiMongodb,
+  Postman: SiPostman,
 };
 
 function ListStack({ stack }) {

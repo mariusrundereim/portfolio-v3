@@ -58,7 +58,7 @@ function ProjectList() {
             </button>
           </div>
         </div>
-        <div className="grid grid-cols-1  gap-4">
+        <div className="grid grid-cols-1  space-y-12">
           {filteredProjects.map((project) => (
             <ProjectCard
               key={project.id}

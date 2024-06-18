@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import ListStack from "./listStack";
 import ListMedia from "./listMedia";
 import ListBrief from "./listBrief";
+import ArrowBack from "../../components/ui/ArrowBack";
 function SpecificPage() {
   const { slug } = useParams();
   const [project, setProject] = useState(null);
@@ -27,6 +28,7 @@ function SpecificPage() {
       <div>
         {project ? (
           <div>
+            <ArrowBack />
             <h2>Specific page {project.title}</h2>
             <ListStack stack={project.stack} />
             <ListMedia media={project.media} />
