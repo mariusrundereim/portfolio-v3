@@ -29,9 +29,9 @@ function Hero() {
             <div className="grid space-y-4">
               <h2 className="text-5xl font-semibold">Fra design til kode</h2>
               <h3 className="text-xl">
-                Erfaren frontend-utvikler med spisskompetanse innen JavaScript,
-                React og API-integrasjon. Jeg skaper intuitive og visuelt
-                tiltalende løsninger som gir resultater.
+                Frontend-utvikler med spisskompetanse innen JavaScript, React og
+                API-integrasjon. Jeg skaper intuitive og visuelt tiltalende
+                løsninger som gir resultater.
               </h3>
               <div className="flex flex-row gap-2">
                 <Button size="small" state="inactive">
@@ -39,6 +39,9 @@ function Hero() {
                 </Button>
                 <Button size="small" state="active">
                   Kontakt
+                </Button>
+                <Button size="small" state="active">
+                  CV
                 </Button>
               </div>
             </div>

@@ -30,6 +30,7 @@ function ProjectList() {
   if (error) {
     return <div>{error}</div>;
   }
+
   return (
     <>
       <div>
