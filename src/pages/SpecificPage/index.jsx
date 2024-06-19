@@ -5,6 +5,8 @@ import ListStack from "./listStack";
 import ListMedia from "./listMedia";
 import ListBrief from "./listBrief";
 import ArrowBack from "../../components/ui/ArrowBack";
+import Slideshow from "../../components/slideshow/Slideshow";
+
 function SpecificPage() {
   const { slug } = useParams();
   const [project, setProject] = useState(null);
@@ -33,6 +35,10 @@ function SpecificPage() {
             <ListStack stack={project.stack} />
             <ListMedia media={project.media} />
             <ListBrief brief={project.brief} />
+            <Slideshow
+              images={project.media}
+              speedOptions={["0x", "1x", "2x"]}
+            />
           </div>
         ) : (
           <p>Loading or project not found...</p>

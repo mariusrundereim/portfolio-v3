@@ -1,4 +1,4 @@
-import photo from "../../../../public/profile-img.png";
+import photo from "/profile-img.png";
 function Contact() {
   return (
     <>
