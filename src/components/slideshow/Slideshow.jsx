@@ -1,30 +1,33 @@
 import { useEffect, useState } from "react";
 import Slide from "./Slide";
 import Countdown from "./Countdown";
-import styled from "styled-components";
+// import styled from "styled-components";
+import tw from "tailwind-styled-components";
 
-const SlideshowContainer = styled.div`
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 aspect ratio */
-  background-color: #000;
-  overflow: hidden; /* Ensures the images are contained within the container */
+const SlideshowContainer = tw.div`
+  relative
+  w-full      
+  aspect-video
+  bg-black
+  overflow-hidden
 `;
 
-const Controls = styled.div`
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  top: 10px;
-  right: 10px;
+const Controls = tw.div`
+  flex
+  justify-between
+  absolute
+  top-2
+  right-2
 `;
 
-const SpeedButton = styled.button`
-  background: ${(props) => (props.active ? "#ccc" : "#fff")};
-  border: none;
-  padding: 5px 10px;
-  margin: 0 5px;
-  cursor: pointer;
+const SpeedButton = tw.button`
+  ${(props) => (props.active ? "bg-gray-200" : "bg-white")}
+  border-none
+  p-2
+  px-3
+  m-1
+  rounded-lg
+  cursor-pointer
 `;
 
 function Slideshow({ images, speedOptions = ["1x", "2x"] }) {

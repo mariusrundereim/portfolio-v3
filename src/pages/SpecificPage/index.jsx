@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { fetchCaseStudies } from "../../service/fetch/getCaseStudies";
 import { useEffect, useState } from "react";
 import ListStack from "./listStack";
-import ListMedia from "./listMedia";
+// import ListMedia from "./listMedia";
 import ListBrief from "./listBrief";
 import ArrowBack from "../../components/ui/ArrowBack";
 import Slideshow from "../../components/slideshow/Slideshow";
@@ -33,7 +33,7 @@ function SpecificPage() {
             <ArrowBack />
             <h2>Specific page {project.title}</h2>
             <ListStack stack={project.stack} />
-            <ListMedia media={project.media} />
+            {/* <ListMedia media={project.media} /> */}
             <ListBrief brief={project.brief} />
             <Slideshow
               images={project.media}

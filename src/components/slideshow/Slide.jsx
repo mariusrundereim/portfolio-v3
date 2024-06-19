@@ -1,13 +1,17 @@
-import styled from "styled-components";
+// import styled from "styled-components";
+import tw from "tailwind-styled-components";
 
-const SlideImage = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures the image covers the container without distortion */
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: opacity 1s ease-in-out; /* Adds a fade-in transition */
+const SlideImage = tw.img`
+  w-full
+  h-full
+  object-cover
+  absolute
+  top-0
+  left-0
+  transition-opacity
+  duration-1000
+  ease-in-out
+  animate-slide-in
 `;
 
 function Slide({ image, currentIndex, slideIndex }) {
