@@ -65,7 +65,7 @@
     "year": 2023,
     "assignment": "Semester prosjekt",
     "duration": 4,
-    "stack": ["HTML & CSS", "JavaScript", "TailwindCss"],
+    "stack": ["HTML", "CSS", "JavaScript", "TailwindCss"],
     "cover": "/portfolio/bidify_cover.png",
     "media": [
       {

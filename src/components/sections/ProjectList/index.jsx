@@ -30,6 +30,7 @@ function ProjectList() {
   if (error) {
     return <div>{error}</div>;
   }
+
   return (
     <>
       <div>
@@ -58,10 +59,11 @@ function ProjectList() {
             </button>
           </div>
         </div>
-        <div className="grid grid-cols-1  gap-4">
+        <div className="grid grid-cols-1  space-y-12">
           {filteredProjects.map((project) => (
             <ProjectCard
               key={project.id}
+              slug={project.slug}
               image={project.cover}
               title={project.title}
               assignment={project.assignment}

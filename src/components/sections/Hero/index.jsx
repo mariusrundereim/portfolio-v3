@@ -2,16 +2,15 @@ import Button from "../../core/Buttons";
 function Hero() {
   return (
     <>
-      <section>
-        <div className="border-2 border-green-500 grid grid-cols-1 md:grid-cols-2">
-          <div className="border-2 border-red-600 grid place-content-center">
+      <section className="min-h-[28rem] grid">
+        <div className="grid grid-cols-1 md:grid-cols-2 place-self-center space-y-8 md:space-y-0">
+          <div className="grid place-content-center">
             <svg
               width="180"
               height="180"
               viewBox="0 0 180 180"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="border-2 border-purple-400"
             >
               <g clipPath="url(#clip0_6_427)">
                 <path
@@ -27,37 +26,23 @@ function Hero() {
             </svg>
           </div>
           <div>
-            <div>
-              <h2 className="text-4xl font-semibold">Hero section</h2>
-              <h3 className="text-2xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-                eos at ducimus, quaerat omnis suscipit ullam magnam velit!
+            <div className="grid space-y-4">
+              <h2 className="text-5xl font-semibold">Fra design til kode</h2>
+              <h3 className="text-xl">
+                Frontend-utvikler med spisskompetanse innen JavaScript, React og
+                API-integrasjon. Jeg skaper intuitive og visuelt tiltalende
+                løsninger som gir resultater.
               </h3>
-            </div>
-            <div>
-              <div className="space-y-4">
-                <div className="flex space-x-4">
-                  <Button size="small" state="inactive">
-                    Utvalgte
-                  </Button>
-                  <Button size="small" state="hover">
-                    Kontakt
-                  </Button>
-                  <Button size="small" state="active">
-                    Kontakt
-                  </Button>
-                </div>
-                <div className="flex space-x-4">
-                  <Button size="large" state="inactive">
-                    Utvalgte
-                  </Button>
-                  <Button size="large" state="hover">
-                    Kontakt
-                  </Button>
-                  <Button size="large" state="active">
-                    Kontakt
-                  </Button>
-                </div>
+              <div className="flex flex-row gap-2">
+                <Button size="small" state="inactive">
+                  Se prosjekter
+                </Button>
+                <Button size="small" state="active">
+                  Kontakt
+                </Button>
+                <Button size="small" state="active">
+                  CV
+                </Button>
               </div>
             </div>
           </div>
