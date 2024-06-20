@@ -4,8 +4,8 @@ function Contact() {
     <>
       <div>
         <h1 className="text-4xl mb-6">Kontakt</h1>
-        <section className="grid md:grid-cols-2 gap-4">
-          <article className="rounded-2xl border-gray-500 p-4 border flex flex-col md:flex-row items-center md:items-start gap-4">
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <article className="rounded-2xl border-gray-500 p-4 border gap-4 flex flex-col">
             <img
               src={photo}
               className="rounded-xl w-1/2 md:w-1/3 lg:w-1/4"
@@ -22,10 +22,15 @@ function Contact() {
               </div>
             </div>
           </article>
-          <article className="rounded-2xl border-gray-500 p-4 border bg-gray-900 text-gray-300">
-            <h2 className="text-2xl font-bold">Er ute på jobbjakt</h2>
-            <h2 className="text-2xl">
-              Kontakt for å fylle på med en nyutdannet frontend utvikler.
+          <article className="rounded-2xl border-gray-500 p-8 border col-span-2 bg-gray-900 text-gray-200 hover:bg-gray-800 hover:transition-colors duration-700 cursor-default">
+            <h2 className="text-2xl font-bold mb-4">Søker nye utfordringer</h2>
+            <h2 className="text-xl font-light mb-2">
+              Nyutdannet frontend-utvikler med lidenskap for brukervennlige
+              løsninger søker spennende prosjekter.
+            </h2>
+            <h2 className="text-xl font-light">
+              Ta kontakt så kan jeg muligens overbevise deg hvordan jeg kan
+              bidra til å løfte deres digitale applikasjon! 🙂
             </h2>
           </article>
         </section>

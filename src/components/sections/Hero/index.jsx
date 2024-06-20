@@ -37,17 +37,17 @@ function Hero() {
               </h3>
               <div className="flex flex-row gap-2">
                 <ScrollLink to="projects" smooth={true} duration={500}>
-                  <Button size="small" state="inactive">
+                  <Button size="large" state="inactive">
                     Se prosjekter
                   </Button>
                 </ScrollLink>
                 <ScrollLink to="contact" smooth={true} duration={500}>
-                  <Button size="small" state="active">
+                  <Button size="large" state="active">
                     Kontakt
                   </Button>
                 </ScrollLink>
                 <a href={Cv} target="_blank" rel="noopener noreferrer">
-                  <Button size="small" state="active">
+                  <Button size="large" state="active">
                     CV
                   </Button>
                 </a>
