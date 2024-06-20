@@ -1,4 +1,7 @@
 function ListMedia({ media }) {
+  if (media.length === 0) {
+    return null;
+  }
   return (
     <>
       <div>

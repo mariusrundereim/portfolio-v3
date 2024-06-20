@@ -4,9 +4,9 @@ function ArrowBack() {
   return (
     <>
       <Link to="/">
-        <div className="flex items-center bg-gray-200 p-2 justify-start">
+        <div className="flex items-center justify-start w-fit hover:text-gray-500">
           <FaChevronLeft />
-          <button>Back to home</button>
+          <button className="text-xl ml-3 ">Back to home</button>
         </div>
       </Link>
     </>

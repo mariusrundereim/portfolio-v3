@@ -19,7 +19,7 @@ import { FaAws } from "react-icons/fa";
 function ListTags() {
   return (
     <>
-      <div className="gap-2 flex flex-wrap">
+      <div className="gap-4 flex flex-wrap">
         <Tag size="large" state="active" iconLeft={DiHtml5} iconSize="26">
           HTML
         </Tag>
