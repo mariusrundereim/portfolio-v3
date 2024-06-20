@@ -2,8 +2,8 @@ function ListBrief({ brief }) {
   return (
     <>
       <div>
-        <h2>Brief</h2>
-        <p>{brief}</p>
+        <h2 className="text-4xl mb-6">Brief</h2>
+        <p className="text-2xl">{brief}</p>
       </div>
     </>
   );

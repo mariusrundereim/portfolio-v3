@@ -27,7 +27,7 @@
       }
     ],
     "brief": [
-      "En nylansert bookingside for overnattingssteder kalt Holidaze har kontaktet deg for å utvikle et helt nytt frontend for deres applikasjon. Selv om de har en liste over nødvendige funksjoner, er ikke design og brukeropplevelse spesifisert. Ved å jobbe med den offisielle API-dokumentasjonen, skal du planlegge, designe og bygge en moderne frontend-applikasjon for booking av overnatting.",
+      "En nylansert bookingside for overnattingssteder kalt Holidaze har kontaktet meg for å utvikle et helt nytt frontend for deres applikasjon. Selv om de har en liste over nødvendige funksjoner, er ikke design og brukeropplevelse spesifisert. Ved å jobbe med den offisielle API-dokumentasjonen, skal du planlegge, designe og bygge en moderne frontend-applikasjon for booking av overnatting.",
       "Det er to aspekter ved denne oppgaven: kundesiden av nettstedet der brukere kan bestille ferier på et overnattingssted, og en administrasjonside av nettstedet der brukere kan registrere og administrere overnattingssteder og bestillinger på disse stedene."
     ],
     "stories": [

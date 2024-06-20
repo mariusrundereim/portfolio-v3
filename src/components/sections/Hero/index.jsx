@@ -1,4 +1,6 @@
+import { Link as ScrollLink } from "react-scroll";
 import Button from "../../core/Buttons";
+import Cv from "/cv/CV_2024_MariusRundereim.pdf";
 function Hero() {
   return (
     <>
@@ -34,15 +36,21 @@ function Hero() {
                 løsninger som gir resultater.
               </h3>
               <div className="flex flex-row gap-2">
-                <Button size="small" state="inactive">
-                  Se prosjekter
-                </Button>
-                <Button size="small" state="active">
-                  Kontakt
-                </Button>
-                <Button size="small" state="active">
-                  CV
-                </Button>
+                <ScrollLink to="projects" smooth={true} duration={500}>
+                  <Button size="small" state="inactive">
+                    Se prosjekter
+                  </Button>
+                </ScrollLink>
+                <ScrollLink to="contact" smooth={true} duration={500}>
+                  <Button size="small" state="active">
+                    Kontakt
+                  </Button>
+                </ScrollLink>
+                <a href={Cv} target="_blank" rel="noopener noreferrer">
+                  <Button size="small" state="active">
+                    CV
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
