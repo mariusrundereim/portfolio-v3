@@ -34,8 +34,8 @@ function ListStack({ stack }) {
   return (
     <>
       <div>
-        <h2>Stack</h2>
-        <ul>
+        <h2 className="text-4xl mb-6">Stack</h2>
+        <ul className="flex flex-wrap gap-4">
           {stack.map((item, index) => {
             const Icon = iconMap[item];
             return (

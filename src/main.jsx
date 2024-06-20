@@ -7,17 +7,25 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "@fontsource-variable/dm-sans";
 import SpecificPage from "./pages/SpecificPage/index.jsx";
 import ErrorPage from "./pages/ErrorPage/index.jsx";
-
+import Layout from "./components/Layout/index.jsx";
 // Router setup
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: (
+      <Layout>
+        <App />
+      </Layout>
+    ),
     errorElement: <ErrorPage />,
   },
   {
     path: "/project/:slug",
-    element: <SpecificPage />,
+    element: (
+      <Layout>
+        <SpecificPage />
+      </Layout>
+    ),
   },
 ]);
 

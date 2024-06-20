@@ -5,6 +5,9 @@ import ListStack from "./listStack";
 import ListMedia from "./listMedia";
 import ListBrief from "./listBrief";
 import ArrowBack from "../../components/ui/ArrowBack";
+import ProjectHeader from "./projectHeader";
+import ListStories from "./listStories";
+
 function SpecificPage() {
   const { slug } = useParams();
   const [project, setProject] = useState(null);
@@ -25,19 +28,26 @@ function SpecificPage() {
 
   return (
     <>
-      <div>
+      <main className="max-w-screen-xl mx-auto px-4 my-10 md:px-0">
         {project ? (
-          <div>
+          <section className="grid space-y-20">
             <ArrowBack />
-            <h2>Specific page {project.title}</h2>
+            <ProjectHeader
+              title={project.title}
+              assignment={project.assignment}
+              year={project.year}
+              links={project.links}
+            />
             <ListStack stack={project.stack} />
             <ListMedia media={project.media} />
             <ListBrief brief={project.brief} />
-          </div>
+            <ListStories stories={project.stories} />
+            <ArrowBack />
+          </section>
         ) : (
           <p>Loading or project not found...</p>
         )}
-      </div>
+      </main>
     </>
   );
 }

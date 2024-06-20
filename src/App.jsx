@@ -10,9 +10,13 @@ function App() {
     <>
       <main className="max-w-screen-xl mx-auto px-4 flex flex-col space-y-20">
         <Hero />
-        <ProjectList />
+        <section id="projects">
+          <ProjectList />
+        </section>
         <Technologies />
-        <Contact />
+        <section id="contact">
+          <Contact />
+        </section>
         <Social />
       </main>
       <footer>

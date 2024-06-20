@@ -6,6 +6,7 @@ const brandColors = {
   instagram: "#E4405F",
   github: "#333",
   spotify: "#1DB954",
+  netlify: "#05bdba",
 };
 
 const baseStyles =

@@ -1,12 +1,15 @@
 function ListMedia({ media }) {
+  if (media.length === 0) {
+    return null;
+  }
   return (
     <>
       <div>
-        <h2>Media</h2>
-        <ul>
+        <h2 className="text-4xl mb-6">Showcase</h2>
+        <ul className="flex flex-col gap-4">
           {media.map((item, index) => (
             <li key={index}>
-              <img src={item.url} alt="" />
+              <img src={item.url} className="rounded-lg" alt="" />
             </li>
           ))}
         </ul>
