@@ -2,15 +2,22 @@ import photo from "/profile-img.png";
 function Contact() {
   return (
     <>
-      <section className="max-w-screen-xl mx-auto bg-white rounded-lg shadow-sm">
+      <section className="max-w-screen-xl mx-auto bg-white">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left Content Column */}
           <div className="space-y-6">
             <h2 className="text-4xl font-bold pb-10">Kontakt</h2>
-            <p className="text-lg leading-relaxed">📱 404 58 454</p>
-            <p className="text-lg leading-relaxed">
-              📭 marius.rundereim@gmail.com
-            </p>
+            <div>
+              <h2 className="text-2xl">
+                Jeg er åpen for å jobbe hvor som helst.
+              </h2>
+            </div>
+            <div>
+              <p className="text-lg leading-relaxed">📱 404 58 454</p>
+              <p className="text-lg leading-relaxed">
+                📭 marius.rundereim@gmail.com
+              </p>
+            </div>
           </div>
           {/* Right Image Column */}
           <div className="relative h-full">

@@ -4,7 +4,7 @@ function ListTags() {
   return (
     <div className="space-y-8">
       <div>
-        <h3 className="text-2xl font-semibold mb-4">Fremhevet</h3>
+        <h3 className="text-xl mb-4">Fremhevet</h3>
         <div className="gap-4 flex flex-wrap">
           {TECHNOLOGIES.featured.map((tech) => (
             <Tag
@@ -22,8 +22,7 @@ function ListTags() {
       </div>
 
       <div>
-        <h3 className="text-2xl font-semibold mb-2">Teknologier</h3>
-        <p className="text-lg mb-2">(Frontend, Backend)</p>
+        <h3 className="text-xl mb-4">Teknologier (Frontend, Backend)</h3>
         <div className="gap-4 flex flex-wrap">
           {TECHNOLOGIES.regular.map((tech) => (
             <Tag

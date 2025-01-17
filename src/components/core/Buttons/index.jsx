@@ -3,11 +3,11 @@ import styled from "styled-components";
 import classNames from "classnames";
 
 const sizes = {
-  small: "px-4 py-2 text-sm",
+  small: "px-4 py-2 text-lg",
   large: "px-6 py-3 text-lg",
 };
 
-const baseStyles = "rounded font-bold transition-colors duration-300";
+const baseStyles = "rounded-lg font-bold transition-colors duration-300";
 const stateStyles = {
   inactive: "bg-black text-white hover:bg-gray-800",
   hover: "bg-gray-200 text-black",

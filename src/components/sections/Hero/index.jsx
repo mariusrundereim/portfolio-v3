@@ -23,7 +23,7 @@ function Hero() {
   }, []);
 
   return (
-    <div className="bg-white">
+    <div>
       <div className="container mx-auto ">
         <header className="flex justify-between items-center py-8">
           <svg
@@ -42,31 +42,30 @@ function Hero() {
             </defs>
           </svg>
           <div className="flex items-center space-x-4">
-            <span className="text-gray-600">{formatTime(currentTime)}</span>
-            <span className="text-gray-600">Oslo, Norway</span>
+            <span className="text-lg">{formatTime(currentTime)}</span>
+            <span className="text-lg">Sunnmøre, Norge</span>
           </div>
         </header>
 
         <main className="gap-12 py-16">
           <div className="flex flex-col justify-center space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl font-bold">
-                Utvikler (Frontend, Backend)
+              <h1 className="text-5xl font-bold">
+                Utvikler [Frontend, Backend]
               </h1>
-              <p className="text-xl text-gray-600">
-                Utdannet Frontend utvikler fokus med å lage gode
-                brukeropplevelser i webapplikasjoner.
+              <p className="text-2xl">
+                Mitt navn er Marius Rundereim, jeg lager webapplikasjoner.
               </p>
             </div>
 
             <div className="flex flex-row gap-2">
               <ScrollLink to="projects" smooth={true} duration={800}>
-                <Button size="large" state="inactive">
+                <Button size="small" state="inactive">
                   Se prosjekter
                 </Button>
               </ScrollLink>
               <ScrollLink to="contact" smooth={true} duration={800}>
-                <Button size="large" state="active">
+                <Button size="small" state="active">
                   Kontakt
                 </Button>
               </ScrollLink>
