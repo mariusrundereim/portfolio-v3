@@ -22,7 +22,8 @@ function ListTags() {
       </div>
 
       <div>
-        <h3 className="text-2xl font-semibold mb-4">Teknologier</h3>
+        <h3 className="text-2xl font-semibold mb-2">Teknologier</h3>
+        <p className="text-lg mb-2">(Frontend, Backend)</p>
         <div className="gap-4 flex flex-wrap">
           {TECHNOLOGIES.regular.map((tech) => (
             <Tag

@@ -19,7 +19,7 @@ function Portfolio() {
     setActiveProjectId(activeProjectId === projectId ? null : projectId);
   };
   return (
-    <div className="py-16">
+    <div>
       <div className="max-w-screen-xl mx-auto">
         <h2 className="text-4xl font-bold pb-10">Prosjekter</h2>
         {/* Category Tabs */}
