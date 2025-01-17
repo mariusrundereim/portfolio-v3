@@ -1,6 +1,5 @@
 import { Link as ScrollLink } from "react-scroll";
 import Button from "../../core/Buttons";
-import Cv from "/cv/CV_2024_MariusRundereim.pdf";
 function Hero() {
   return (
     <>
@@ -46,11 +45,6 @@ function Hero() {
                     Kontakt
                   </Button>
                 </ScrollLink>
-                <a href={Cv} target="_blank" rel="noopener noreferrer">
-                  <Button size="large" state="active">
-                    CV
-                  </Button>
-                </a>
               </div>
             </div>
           </div>

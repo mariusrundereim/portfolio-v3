@@ -1,17 +1,17 @@
 import Contact from "./components/sections/Contact";
 import Hero from "./components/sections/Hero";
-import Footer from "./components/sections/Layout/Footer";
-import ProjectList from "./components/sections/ProjectList";
+import Portfolio from "./components/sections/projects";
 import Social from "./components/sections/Social";
 import Technologies from "./components/sections/Technologies";
 
 function App() {
   return (
     <>
-      <main className="max-w-screen-xl mx-auto px-4 flex flex-col space-y-20">
+      <main className="max-w-screen-xl mx-auto px-4 flex flex-col space-y-20 py-20 border-2 border-blue-500">
         <Hero />
+
         <section id="projects">
-          <ProjectList />
+          <Portfolio />
         </section>
         <Technologies />
         <section id="contact">
@@ -19,9 +19,6 @@ function App() {
         </section>
         <Social />
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </>
   );
 }

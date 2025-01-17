@@ -1,0 +1,109 @@
+export const categories = ["Frontend", "Backend"];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Jasper",
+    description: "Noteringsapplikasjon med Markdown-støtte",
+    features: [
+      "Real-time sales tracking",
+      "Inventory management",
+      "Customer analytics",
+    ],
+    technologies: [
+      "Next.js",
+      "React",
+      "TailwindCSS",
+      "JavaScript",
+      "Radix UI",
+      "Objekt-Orientert Programmering",
+    ],
+    cover: "/api/placeholder/800/400",
+    images: {
+      desktop: "/api/placeholder/1920/1080",
+      mobile: "/api/placeholder/390/844",
+      tablet: "/api/placeholder/820/1180",
+    },
+    category: "Frontend",
+    externalLinks: [
+      {
+        type: "github",
+        url: "https://github.com/username/project",
+        label: "GitHub",
+      },
+      {
+        type: "deploy",
+        url: "https://project.netlify.app",
+        label: "Live Demo",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Puck Rental",
+    description: "Nettside for utleie av biler i Norge",
+    features: [
+      "Rate limiting",
+      "Request validation",
+      "Authentication middleware",
+    ],
+    technologies: ["Vue.js", "TailwindCss", "Vite"],
+    cover: "/api/placeholder/800/400",
+    images: {
+      desktop: "/api/placeholder/1920/1080",
+      mobile: "/api/placeholder/390/844",
+      tablet: "/api/placeholder/820/1180",
+    },
+    category: "Frontend",
+    githubUrl: "https://github.com/username/api-gateway",
+    deployUrl: "https://api.project.com",
+  },
+  {
+    id: 3,
+    title: "Resepsjonist",
+    description:
+      "Nettbasert dashbordapplikasjon utviklet for WeDeliverTECH™s resepsjonspersonale for å administrere fraværsregistrering for ansatte og overvåking av budbiler. Systemet gir sanntids oppdateringer og varsler for å sikre effektiv kontor- og leveringshåndtering.",
+    features: [
+      "Inn-/utsjekk-funksjonalitet for ansatte",
+      "Automatisk beregning av varighet og visning av forventet tilbakekomsttid",
+      "Sanntids statusoppdateringer",
+      "Varsler ved sen tilbakekomst med ansattes detaljer",
+      "Integrering med API for demo-ansatte",
+    ],
+    technologies: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "Objekt-Orientert Programmering",
+    ],
+    cover: "/projects/resume_projects_bed1.png",
+    category: "Backend",
+    githubUrl: "https://github.com/mariusrundereim/bed-semester-project-1",
+    deployUrl: "https://papaya-clafoutis-b998c6.netlify.app",
+  },
+  {
+    id: 4,
+    title: "Holidaze",
+    description:
+      "Nettbasert dashbordapplikasjon utviklet for WeDeliverTECH™s resepsjonspersonale for å administrere fraværsregistrering for ansatte og overvåking av budbiler. Systemet gir sanntids oppdateringer og varsler for å sikre effektiv kontor- og leveringshåndtering.",
+    features: [
+      "Inn-/utsjekk-funksjonalitet for ansatte",
+      "Automatisk beregning av varighet og visning av forventet tilbakekomsttid",
+      "Sanntids statusoppdateringer",
+      "Varsler ved sen tilbakekomst med ansattes detaljer",
+      "Integrering med API for demo-ansatte",
+    ],
+    technologies: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "Objekt-Orientert Programmering",
+    ],
+    cover: "/projects/resume_projects_bed1.png",
+    category: "Frontend",
+    githubUrl: "https://github.com/mariusrundereim/bed-semester-project-1",
+    deployUrl: "https://papaya-clafoutis-b998c6.netlify.app",
+  },
+];
