@@ -10,9 +10,9 @@ const baseStyles = "rounded transition-colors outline duration-300";
 const stateStyles = {
   inactive: "bg-black text-white hover:bg-gray-800",
   hover: "bg-cyan-600 text-black",
-  active: "bg-gray-100 text-black outline-1 outline-gray-400",
+  active: "bg-gray-200 hover:bg-gray-300 text-black outline-1 outline-gray-400",
   featured:
-    "bg-cyan-100 hover:bg-cyan-600 hover:text-cyan-200 text-cyan-900 outline-1 outline-cyan-400",
+    "bg-cyan-50 hover:bg-cyan-100  text-cyan-900 outline-1 outline-cyan-400",
 };
 
 const StyledTag = styled.a.attrs(({ $size, $state }) => ({

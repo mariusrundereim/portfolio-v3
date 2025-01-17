@@ -10,8 +10,8 @@ const sizes = {
 const baseStyles = "rounded-lg font-bold transition-colors duration-300";
 const stateStyles = {
   inactive: "bg-black text-white hover:bg-gray-800",
-  hover: "bg-gray-200 text-black",
-  active: "bg-gray-300 text-black",
+  // hover: "bg-gray-200 text-black",
+  active: "bg-gray-200 hover:bg-gray-300 text-black",
 };
 
 const StyledButton = styled.button.attrs(({ $size, $state }) => ({
