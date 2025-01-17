@@ -6,7 +6,7 @@ function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left Content Column */}
           <div className="space-y-6">
-            <h1 className="text-3xl font-bold">Kontakt</h1>
+            <h2 className="text-4xl font-bold pb-10">Kontakt</h2>
             <p className="text-lg leading-relaxed">📱 404 58 454</p>
             <p className="text-lg leading-relaxed">
               📭 marius.rundereim@gmail.com

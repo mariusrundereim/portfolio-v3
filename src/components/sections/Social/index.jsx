@@ -2,8 +2,8 @@ import ListSocial from "./listSocial";
 
 function Social() {
   return (
-    <div className="border-2 border-red-500">
-      <h1 className="text-4xl mb-6">Social</h1>
+    <div>
+      <h2 className="text-4xl font-bold pb-10">Connect</h2>
       <ListSocial />
     </div>
   );

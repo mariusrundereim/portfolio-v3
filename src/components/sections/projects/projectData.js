@@ -18,12 +18,7 @@ export const projects = [
       "Radix UI",
       "Objekt-Orientert Programmering",
     ],
-    cover: "/api/placeholder/800/400",
-    images: {
-      desktop: "/api/placeholder/1920/1080",
-      mobile: "/api/placeholder/390/844",
-      tablet: "/api/placeholder/820/1180",
-    },
+    cover: "/portfolio/jasper_cover_square_0.png",
     category: "Frontend",
     externalLinks: [
       {
@@ -47,20 +42,15 @@ export const projects = [
       "Request validation",
       "Authentication middleware",
     ],
-    technologies: ["Vue.js", "TailwindCss", "Vite"],
-    cover: "/api/placeholder/800/400",
-    images: {
-      desktop: "/api/placeholder/1920/1080",
-      mobile: "/api/placeholder/390/844",
-      tablet: "/api/placeholder/820/1180",
-    },
+    technologies: ["Vue.js", "TailwindCss", "TypeScript", "Vite"],
+    cover: "/portfolio/puckrental_cover_square_0.png",
     category: "Frontend",
     githubUrl: "https://github.com/username/api-gateway",
     deployUrl: "https://api.project.com",
   },
   {
     id: 3,
-    title: "Resepsjonist",
+    title: "WeDeliverTECH",
     description:
       "Nettbasert dashbordapplikasjon utviklet for WeDeliverTECH™s resepsjonspersonale for å administrere fraværsregistrering for ansatte og overvåking av budbiler. Systemet gir sanntids oppdateringer og varsler for å sikre effektiv kontor- og leveringshåndtering.",
     features: [
@@ -77,7 +67,7 @@ export const projects = [
       "JavaScript",
       "Objekt-Orientert Programmering",
     ],
-    cover: "/projects/resume_projects_bed1.png",
+    cover: "/portfolio/wdt_cover_square_0.png",
     category: "Backend",
     githubUrl: "https://github.com/mariusrundereim/bed-semester-project-1",
     deployUrl: "https://papaya-clafoutis-b998c6.netlify.app",
@@ -101,9 +91,35 @@ export const projects = [
       "JavaScript",
       "Objekt-Orientert Programmering",
     ],
-    cover: "/projects/resume_projects_bed1.png",
+    cover: "/portfolio/holidaze_cover_square_0.png",
     category: "Frontend",
     githubUrl: "https://github.com/mariusrundereim/bed-semester-project-1",
     deployUrl: "https://papaya-clafoutis-b998c6.netlify.app",
+  },
+  {
+    id: 5,
+    title: "Bidify",
+    description:
+      "Nettbasert dashbordapplikasjon utviklet for WeDeliverTECH™s resepsjonspersonale for å administrere fraværsregistrering for ansatte og overvåking av budbiler. Systemet gir sanntids oppdateringer og varsler for å sikre effektiv kontor- og leveringshåndtering.",
+    features: [
+      "Inn-/utsjekk-funksjonalitet for ansatte",
+      "Automatisk beregning av varighet og visning av forventet tilbakekomsttid",
+      "Sanntids statusoppdateringer",
+      "Varsler ved sen tilbakekomst med ansattes detaljer",
+      "Integrering med API for demo-ansatte",
+    ],
+    technologies: [
+      "HTML",
+      "CSS",
+      "TailwindCss",
+      "JavaScript",
+      "Cypress",
+      "Jest",
+      "REST-API",
+    ],
+    cover: "/portfolio/bidify_cover_square_0.png",
+    category: "Frontend",
+    githubUrl: "https://github.com/mariusrundereim/marius-semester-project-2",
+    deployUrl: "https://mariusrundereim.github.io/marius-semester-project-2/",
   },
 ];

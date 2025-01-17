@@ -7,7 +7,7 @@ import Technologies from "./components/sections/Technologies";
 function App() {
   return (
     <>
-      <main className="max-w-screen-xl mx-auto px-4 flex flex-col space-y-20 py-20 border-2 border-blue-500">
+      <main className="max-w-screen-xl mx-auto px-4 flex flex-col space-y-20 py-20 ">
         <Hero />
 
         <section id="projects">
