@@ -13,7 +13,6 @@ export function RoadmapItem({
   difficulty,
   description,
   resources = [],
-  estimatedHours,
   onToggle,
   isLocked = false,
 }) {
@@ -49,9 +48,6 @@ export function RoadmapItem({
           >
             {difficulty}
           </span>
-        </div>
-        <div className="flex items-center">
-          <span className="text-sm text-gray-500">{estimatedHours}h</span>
         </div>
       </div>
 

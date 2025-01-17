@@ -11,13 +11,6 @@ export function SkillSection({
 }) {
   const completedCount = skills.filter((skill) => skill.completed).length;
   const progress = (completedCount / skills.length) * 100;
-  const totalHours = skills.reduce(
-    (acc, skill) => acc + skill.estimatedHours,
-    0
-  );
-  const completedHours = skills
-    .filter((skill) => skill.completed)
-    .reduce((acc, skill) => acc + skill.estimatedHours, 0);
 
   return (
     <div className="mb-8 w-full">
@@ -29,9 +22,6 @@ export function SkillSection({
               {completedCount} / {skills.length} completed
             </span>
             <span>•</span>
-            <span>
-              {completedHours} / {totalHours} hours
-            </span>
           </div>
         </div>
         <button
@@ -60,7 +50,6 @@ export function SkillSection({
               difficulty={skill.difficulty}
               description={skill.description}
               resources={skill.resources}
-              estimatedHours={skill.estimatedHours}
               onToggle={() => onToggleSkill(skill.id)}
               isLocked={skill.dependencies?.some(
                 (dep) => !skills.find((s) => s.id === dep)?.completed

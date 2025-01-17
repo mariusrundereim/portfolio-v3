@@ -57,7 +57,7 @@ function FocusAreas() {
     },
   };
   return (
-    <div className="p-6 rounded-lg border border-grey-200">
+    <div className="p-6 rounded-lg border border-grey-20">
       <header className="mb-12">
         <h1 className="text-4xl font-bold mb-4">Prosess utvikling</h1>
         <p className="text-lg ">

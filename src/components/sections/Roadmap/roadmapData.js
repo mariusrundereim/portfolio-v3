@@ -6,7 +6,6 @@ export const frontendSkills = [
     difficulty: "Beginner",
     description:
       "Master semantic HTML, accessibility best practices, and SEO optimization techniques.",
-    estimatedHours: 20,
     resources: [
       {
         title: "MDN Web Docs - HTML",
@@ -22,13 +21,30 @@ export const frontendSkills = [
     difficulty: "Intermediate",
     description:
       "Master semantic HTML, accessibility best practices, and SEO optimization techniques.",
-    estimatedHours: 20,
     resources: [
       {
         title: "MDN Web Docs - HTML",
         url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
       },
       { title: "Web.dev Accessibility", url: "https://web.dev/accessibility" },
+    ],
+  },
+  {
+    id: "javascript",
+    title: "JavaScript (ES6+, API, DOM Manipulation)",
+    completed: true,
+    difficulty: "Advanced",
+    description:
+      "Master semantic HTML, accessibility best practices, and SEO optimization techniques.",
+    resources: [
+      {
+        title: "JS Docs",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScripthttps://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting",
+      },
+      {
+        title: "DOM Manipulation",
+        url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting",
+      },
     ],
   },
 ];
@@ -40,7 +56,6 @@ export const backendSkills = [
     completed: false,
     difficulty: "Intermediate",
     description: "Learn Node.js core concepts and server-side JavaScript.",
-    estimatedHours: 30,
     dependencies: ["javascript-core"],
     resources: [
       {

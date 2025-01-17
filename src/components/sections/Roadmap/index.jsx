@@ -30,24 +30,26 @@ export default function RoadMap() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-8">Roadmap</h1>
+    <section className="p-6 rounded-lg border border-grey-200">
+      <div>
+        <h1 className="text-3xl font-bold mb-8">Roadmap</h1>
 
-      <SkillSection
-        title="Frontend"
-        skills={skills.frontend}
-        onToggleSkill={(skillId) => toggleSkill("frontend", skillId)}
-        isExpanded={expandedSections.frontend}
-        onToggleExpand={() => toggleSection("frontend")}
-      />
+        <SkillSection
+          title="Frontend"
+          skills={skills.frontend}
+          onToggleSkill={(skillId) => toggleSkill("frontend", skillId)}
+          isExpanded={expandedSections.frontend}
+          onToggleExpand={() => toggleSection("frontend")}
+        />
 
-      <SkillSection
-        title="Backend"
-        skills={skills.backend}
-        onToggleSkill={(skillId) => toggleSkill("backend", skillId)}
-        isExpanded={expandedSections.backend}
-        onToggleExpand={() => toggleSection("backend")}
-      />
-    </div>
+        <SkillSection
+          title="Backend"
+          skills={skills.backend}
+          onToggleSkill={(skillId) => toggleSkill("backend", skillId)}
+          isExpanded={expandedSections.backend}
+          onToggleExpand={() => toggleSection("backend")}
+        />
+      </div>
+    </section>
   );
 }
