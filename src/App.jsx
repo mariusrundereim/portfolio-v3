@@ -11,11 +11,13 @@ function App() {
     <>
       <main className="max-w-screen-xl mx-auto px-4 flex flex-col space-y-20 pb-20">
         <Hero />
-        <RoadMap />
 
         <FocusAreas />
         <section id="projects">
           <Portfolio />
+        </section>
+        <section id="roadmap">
+          <RoadMap />
         </section>
         <Technologies />
         <section id="contact">

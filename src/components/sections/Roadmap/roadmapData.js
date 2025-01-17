@@ -47,6 +47,20 @@ export const frontendSkills = [
       },
     ],
   },
+  {
+    id: "nextjs",
+    title: "Next.js",
+    completed: false,
+    difficulty: "Advanced",
+    description:
+      "Master semantic HTML, accessibility best practices, and SEO optimization techniques.",
+    resources: [
+      {
+        title: "Next.js Documentation",
+        url: "https://nextjs.org/docs",
+      },
+    ],
+  },
 ];
 
 export const backendSkills = [
@@ -61,6 +75,20 @@ export const backendSkills = [
       {
         title: "Node.js Documentation",
         url: "https://nodejs.org/docs/latest/api/",
+      },
+    ],
+  },
+  {
+    id: "express",
+    title: "Express.js",
+    completed: true,
+    difficulty: "Intermediate",
+    description: "Learn how to build web servers with Express.js.",
+    dependencies: ["nodejs-core"],
+    resources: [
+      {
+        title: "Express.js Documentation",
+        url: "https://expressjs.com/",
       },
     ],
   },

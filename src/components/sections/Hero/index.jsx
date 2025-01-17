@@ -69,6 +69,11 @@ function Hero() {
                   Kontakt
                 </Button>
               </ScrollLink>
+              <ScrollLink to="roadmap" smooth={true} duration={800}>
+                <Button size="small" state="active">
+                  Roadmap
+                </Button>
+              </ScrollLink>
             </div>
           </div>
         </main>

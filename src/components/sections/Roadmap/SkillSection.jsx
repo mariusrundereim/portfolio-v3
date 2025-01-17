@@ -19,9 +19,8 @@ export function SkillSection({
           <h2 className="text-2xl font-bold">{title}</h2>
           <div className="text-sm text-gray-500 space-x-4">
             <span>
-              {completedCount} / {skills.length} completed
+              {completedCount} / {skills.length} fullført
             </span>
-            <span>•</span>
           </div>
         </div>
         <button

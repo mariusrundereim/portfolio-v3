@@ -4,8 +4,8 @@ import { frontendSkills, backendSkills } from "./roadmapData";
 
 export default function RoadMap() {
   const [expandedSections, setExpandedSections] = useState({
-    frontend: true,
-    backend: true,
+    frontend: false,
+    backend: false,
   });
 
   const [skills, setSkills] = useState({
