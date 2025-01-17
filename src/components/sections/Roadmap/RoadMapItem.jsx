@@ -20,7 +20,7 @@ export function RoadmapItem({
     <div
       className={`border rounded-lg p-4 mb-4 ${
         isCompleted ? "bg-gray-50" : "bg-white"
-      } `}
+      } hover:shadow-md transition-shadow duration-200`}
     >
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-3">
@@ -55,7 +55,7 @@ export function RoadmapItem({
 
       {resources.length > 0 && (
         <div className="mt-3">
-          <h4 className="text-sm font-medium text-gray-700 mb-1">Ressurser:</h4>
+          <h4 className="text-sm font-medium text-gray-700 mb-1">Ressurser</h4>
           <ul className="space-y-1">
             {resources.map((resource, index) => (
               <li key={index} className="text-sm">

@@ -17,7 +17,7 @@ export function SkillSection({
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center space-x-4">
           <h2 className="text-2xl font-bold">{title}</h2>
-          <div className="text-sm text-gray-500 space-x-4">
+          <div className="text-sm space-x-4">
             <span>
               {completedCount} / {skills.length} fullført
             </span>
@@ -34,7 +34,7 @@ export function SkillSection({
 
       <div className="mb-4 bg-gray-200 rounded-full h-2 overflow-hidden">
         <div
-          className="bg-green-500 h-2 rounded-full transition-all duration-500 ease-out"
+          className="bg-cyan-500 h-2 rounded-full transition-all duration-500 ease-out"
           style={{ width: `${progress}%` }}
         />
       </div>
