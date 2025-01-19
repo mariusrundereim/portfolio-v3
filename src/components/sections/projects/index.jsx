@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Github, ExternalLink, Figma, Image } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 import { categories, projects } from "./projectData";
 
 function Portfolio() {
@@ -19,8 +19,8 @@ function Portfolio() {
     setActiveProjectId(activeProjectId === projectId ? null : projectId);
   };
   return (
-    <div className="max-w-screen-xl mx-auto bg-cyan-950 p-8 rounded-lg">
-      <h2 className="text-4xl font-bold text-white pb-10">Prosjekter</h2>
+    <div className="max-w-screen-xl mx-auto">
+      <h2 className="text-4xl font-bold pb-10">Prosjekter</h2>
       {/* Category Tabs */}
       <div className="flex gap-2 mb-6">
         {categories.map((category) => (
@@ -37,8 +37,8 @@ function Portfolio() {
             }}
             className={`px-4 py-2 rounded-lg transition-all duration-300 ${
               activeCategory === category
-                ? "bg-cyan-500 text-white"
-                : "bg-cyan-50 hover:bg-gray-300"
+                ? "bg-gray-900 text-white"
+                : "bg-gray-200 hover:bg-gray-300"
             }`}
           >
             {category}
@@ -51,12 +51,12 @@ function Portfolio() {
         {filteredProjects.map((project) => (
           <div
             key={project.id}
-            className="border border-slate-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
+            className="bg-white border border-gray-300 rounded-lg overflow-hidden"
           >
             {/* Project Header */}
             <button
               onClick={() => toggleProject(project.id)}
-              className="w-full p-4 flex justify-between items-center bg-cyan-150 hover:bg-cyan-50 transition-colors duration-300"
+              className="w-full p-4 flex justify-between items-center bg-cyan-150 hover:bg-gray-50 transition-colors duration-300"
             >
               <h3 className="text-lg font-semibold">{project.title}</h3>
               <span

@@ -11,8 +11,6 @@ export function RoadmapItem({
   title,
   isCompleted,
   difficulty,
-  description,
-  resources = [],
   onToggle,
   isLocked = false,
 }) {
@@ -20,7 +18,7 @@ export function RoadmapItem({
     <div
       className={`border rounded-lg p-4 mb-4 ${
         isCompleted ? "bg-gray-50" : "bg-white"
-      } hover:shadow-md transition-shadow duration-200`}
+      }`}
     >
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-3">
@@ -50,32 +48,6 @@ export function RoadmapItem({
           </span>
         </div>
       </div>
-
-      <p className="mt-2 text-gray-600 text-sm">{description}</p>
-
-      {resources.length > 0 && (
-        <div className="mt-3">
-          <h4 className="text-sm font-medium text-gray-700 mb-1">Ressurser</h4>
-          <ul className="space-y-1">
-            {resources.map((resource, index) => (
-              <li key={index} className="text-sm">
-                <a
-                  href={resource.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:text-blue-800 flex items-center group"
-                >
-                  {resource.title}
-                  <ExternalLink
-                    size={12}
-                    className="ml-1 opacity-0 group-hover:opacity-100 transition-opacity"
-                  />
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
     </div>
   );
 }

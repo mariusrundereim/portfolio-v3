@@ -12,7 +12,7 @@ const stateStyles = {
   hover: "bg-cyan-600 text-black",
   active: "bg-gray-200 hover:bg-gray-300 text-black outline-1 outline-gray-400",
   featured:
-    "bg-cyan-50 hover:bg-cyan-100  text-cyan-900 outline-1 outline-cyan-400",
+    "bg-gray-300 hover:bg-gray-600 hover:text-gray-100   outline-1 outline-gray-400",
 };
 
 const StyledTag = styled.a.attrs(({ $size, $state }) => ({

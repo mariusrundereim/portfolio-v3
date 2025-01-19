@@ -8,11 +8,10 @@ import Technologies from "./components/sections/Technologies";
 
 function App() {
   return (
-    <>
-      <main className="max-w-screen-xl mx-auto px-4 flex flex-col space-y-20 pb-20">
+    <div className="bg-zinc-100">
+      <main className="max-w-screen-xl  mx-auto px-4 flex flex-col space-y-20 pb-20">
         <Hero />
 
-        <FocusAreas />
         <section id="projects">
           <Portfolio />
         </section>
@@ -25,7 +24,7 @@ function App() {
         </section>
         <Social />
       </main>
-    </>
+    </div>
   );
 }
 

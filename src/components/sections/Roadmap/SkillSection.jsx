@@ -47,8 +47,6 @@ export function SkillSection({
               title={skill.title}
               isCompleted={skill.completed}
               difficulty={skill.difficulty}
-              description={skill.description}
-              resources={skill.resources}
               onToggle={() => onToggleSkill(skill.id)}
               isLocked={skill.dependencies?.some(
                 (dep) => !skills.find((s) => s.id === dep)?.completed
