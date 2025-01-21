@@ -14,6 +14,7 @@
   "dependencies": {
     "@fontsource-variable/dm-sans": "^5.0.6",
     "classnames": "^2.5.1",
+    "lucide-react": "^0.471.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",

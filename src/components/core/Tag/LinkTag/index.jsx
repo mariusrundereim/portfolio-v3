@@ -11,7 +11,7 @@ const brandColors = {
 
 const baseStyles =
   "flex justify-between items-center p-4 w-full rounded-md transition duration-300";
-const defaultStyle = "bg-gray-100 text-black";
+const defaultStyle = "bg-gray-200 text-black";
 
 const StyledTagContainer = styled.a`
   &:hover {

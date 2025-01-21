@@ -2,12 +2,10 @@ import ListSocial from "./listSocial";
 
 function Social() {
   return (
-    <>
-      <div>
-        <h1 className="text-4xl mb-6">Social</h1>
-        <ListSocial />
-      </div>
-    </>
+    <div>
+      <h2 className="text-4xl font-bold pb-10">Connect</h2>
+      <ListSocial />
+    </div>
   );
 }
 
